@@ -72,6 +72,7 @@ int findStudent(int* id) {
     return -1;
 }
 
+// For test & debug only.
 void sortStudent() {
     struct Student temp;
     for (int i = 0; i < studentCount - 1; i++) {
